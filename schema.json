@@ -1,0 +1,22 @@
+{
+    "type": "record",
+    "name": "ProductData",
+    "namespace": "com.example.avro",
+    "fields": [
+      {"name": "_id", "type": "string"},
+      {"name": "actual_price", "type": ["null", "double"], "default": null},
+      {"name": "average_rating", "type": ["null", "double"], "default": null},
+      {"name": "brand", "type": ["null", "string"], "default": null},
+      {"name": "category", "type": "string"},
+      {"name": "crawled_at", "type": "string"},
+      {"name": "discount", "type": ["null", "string"], "default": null},
+      {"name": "out_of_stock", "type": "boolean"},
+      {"name": "pid", "type": "string"},
+      {"name": "product_details", "type": "string"},
+      {"name": "seller", "type": ["null", "string"], "default": null},
+      {"name": "selling_price", "type": ["null", "double"], "default": null},
+      {"name": "sub_category", "type": "string"},
+      {"name": "title", "type": "string"}
+    ]
+  }
+  
